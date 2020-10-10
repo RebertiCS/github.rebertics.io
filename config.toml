@@ -1,29 +1,32 @@
-baseurl = "http://kisuyami.xyz"
-title = "KisuYami's own page"
+baseurl = "/"
+title = "Reberti Carvalho Soares"
 theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
+relativeURLs = false
+uglyURLs = false
 
 paginate = 20
 canonifyurls = true
 
-pygmentsstyle = "bw"
+pygmentsstyle = "b2"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-disqusShortname = "yourdiscussshortname"
+disable_comments = false
 
 [params]
     author = "KisuYami"
     info = "Programmer and Linux SysAdm"
     description = "KisuYami's personal website"
-    keywords = "blog,developer,personal"
-    avatarurl = "images/avatar.jpg"
+    keywords = "blog,developer,personal,linux"
+    avatarurl = "/img/avatar.png"
 
     favicon_32 = "/img/favicon-32x32.png"
     favicon_16 = "/img/favicon-16x16.png"
 
     footercontent = "FOSS developer and activist. UNIX enthusiast. KISS preacher."
+    commit = "https://gitlab.com/KisuYami/kblog/-/commits/master"
 
     hidecredits = false
     hidecopyright = false
@@ -31,31 +34,86 @@ disqusShortname = "yourdiscussshortname"
     rtl = false
 
     math = true
-    custom_css = ["css/custom.css"]
+
+    colorscheme = "auto"
+
+    enableTwemoji = true
 
 # Social links
 [[params.social]]
-    name = "Github"
-    icon = "fab fa-github fa-2x"
-    weight = 1
-    url = "https://github.com/kisuyami/"
-[[params.social]]
     name = "Gitlab"
-    icon = "fab fa-gitlab fa-2x"
-    weight = 2
+    #icon = "fab fa-gitlab"
+    weight = 1
     url = "https://gitlab.com/kisuyami/"
 [[params.social]]
+    name = "Reddit"
+    #icon = "fab fa-github"
+    weight = 2
+    url = "https://www.reddit.com/user/reberti666/"
+[[params.social]]
     name = "Twitter"
-    icon = "fab fa-twitter fa-2x"
+    #icon = "fab fa-twitter"
     weight = 3
     url = "https://twitter.com/kisoyami/"
 
-# Menu links
+[[menu.main]]
+    name = "Projects"
+    weight = 1
+    url = "/projects/"
 [[menu.main]]
     name = "Blog"
-    weight = 1
+    weight = 2
     url  = "/posts/"
 [[menu.main]]
     name = "About"
-    weight = 2
+    weight = 3
     url = "/about/"
+
+[languages]
+    [languages.en]
+        languagename = "English"
+
+        [languages.en.menu]
+
+            [[languages.en.menu.main]]
+            name = "Projects"
+            weight = 1
+            url = "projects/"
+
+            [[languages.en.menu.main]]
+            name = "Blog"
+            weight = 2
+            url = "posts/"
+
+            [[languages.en.menu.main]]
+            name = "About"
+            weight = 3
+            url = "about/"
+
+    [languages.pt-br]
+        languagename = "Português"
+        title = "Reberti Carvalho Soares"
+
+        [languages.pt-br.params]
+            author = "KisuYami"
+            info = "Desenvolvedor FOSS e Linux SysAdm"
+    	    description = "A pagina pessoal do KisuYami"
+    	    keywords = "blog,desenvolvedor,pessoal,linux"
+    	    footercontent = "Desenvolvedor e activista FOSS . Entusiasta de UNIX. Seguidor do KISS."
+
+        [languages.pt-br.menu]
+
+            [[languages.pt-br.menu.main]]
+            name = "Projetos"
+            weight = 1
+            url = "projects/"
+
+            [[languages.pt-br.menu.main]]
+            name = "Blog"
+            weight = 2
+            url = "posts/"
+
+            [[languages.pt-br.menu.main]]
+            name = "Sobre"
+            weight = 3
+            url = "about/"
