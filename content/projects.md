@@ -25,12 +25,12 @@ It was indeed a fun project and to this day i still play around with it's source
 It still a WIP, but it's a long time since i don't work in this project, some day i will find the energy to finish it.
 
 ```
-MOV 0 $RDA
-MOV 10 $RDB
+MOVE 0 $RDA
+MOVE 10 $RDB
 ADD 1
-PRINT $RDA
-JNE 2
-PRINTS "Done"
+PRINTD $RDA
+JLT 2
+PRINTS "KissVM!"
 ```
 
 ## [STKLib](https://gitlab.com/KisuYami/stklib)
