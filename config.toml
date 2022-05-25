@@ -55,12 +55,11 @@ disable_comments = false
     #icon = "fab fa-twitter"
     weight = 3
     url = "https://twitter.com/kisoyami/"
-
 [[params.social]]
     name = "Mastodon"
     #icon = "fab fa-mastodon"
     weight = 3
-    url = "<a rel="me" href="https://fosstodon.org/@kisuyami">Mastodon</a>"
+    url = "https://fosstodon.org/@kisuyami"
 
 [[menu.main]]
     name = "Projects"
