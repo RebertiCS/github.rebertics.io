@@ -4,6 +4,10 @@ date: 2020-10-10T23:31:14-03:00
 draft: false
 ---
 
+Tenho grande experiência na area de comunicação com os clientes
+tendo a habilidade de conversar tanto em ingles quanto em portugues
+podendo interagir com uma variedade maior de clientes.
+
 Eu busco me desenvolver na área
 de administração de sistemas e futuramente em devops,
 atualmente tenho experiência em manutenção de microcomputadores e
@@ -23,7 +27,6 @@ desenvolvimento em C, C++, Python, HTML, CSS e JS.
 - **_2021_**, cozinheiro
 
 **Condor Super Center LTDA, _2021 a atual_** --- operador de caixa e empacotador
-
 # Habilidades
 ---
 ## Programação
@@ -56,3 +59,9 @@ Manutenção, reparos e reculperação de dados.
 **Englês:** __Avançado__
 
 **Português:** __Nativo__
+
+
+# Certificações:
+![Intoxição](/img/about/Intoxicação.jpg)
+![Delirium](/img/about/Delirium.jpg)
+![Vitmização](/img/about/Vitimização.jpg)
