@@ -1,4 +1,2 @@
-# KisuYami's Web Page
-My web page with blog, about and projects showcase
-
-**site link**: https://kisuyami.xyz
+[![Deploy Hugo site to Pages](https://github.com/RebertiCS/github.rebertics.io/actions/workflows/hugo.yml/badge.svg)](https://github.com/RebertiCS/github.rebertics.io/actions/workflows/hugo.yml)
+# RebertiCS's Web Page
