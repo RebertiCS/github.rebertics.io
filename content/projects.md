@@ -1,40 +1,24 @@
 ---
-title: "Projects"
-date: 2020-10-10T23:33:00-03:00
+title: "Projetos"
+date: 2020-10-11T08:04:19-03:00
 ---
 
-## [KYFM](https://gitlab.com/KisuYami/kyfm)
+## DBoard
 
-> The fastest file manager.
+> Solução completa de gerenciamento
 
-Written in __C18__ and __ncurses__, with only 456 LOC, i made it to be fast and reliable.
+Desenvolvida conforme os requisitos e nescessidades da Nova Esperança,
+tendo como for otimizar o funcionamento interno de escritoris e possibilando
+o gerenciamento de varias filias de forma eficiente e em tempo real.
 
-![kyfm](/img/projects/kyfm-preview.png)
+## Desenvolvimento FOSS
 
-## [RShell](https://gitlab.com/KisuYami/rshell)
+> Kernel Nethunter para celulares
 
-> A shell with my name.
+Ferramente implementada para uso de teste e avaliação de redes,
+tendo como foco proteger redes de ataques internos, MiM, RuberDucky,
+roubo de chaves de autenticação e fishing.
 
-Written from scratch and rewritten many times, rshell was only intended for learning and not for real world usage.
-It was indeed a fun project and to this day i still play around with it's source code.
-
-## [KissVM](https://gitlab.com/KisuYami/kissvm)
-
-> A byte code interpreter that is run in a __x86__ virtualized CPU.
-
-It still a WIP, but it's a long time since i don't work in this project, some day i will find the energy to finish it.
-
-```
-MOVE 0 $RDA
-MOVE 10 $RDB
-ADD 1
-PRINTD $RDA
-JLT 2
-PRINTS "KissVM!"
-```
-
-## [STKLib](https://gitlab.com/KisuYami/stklib)
-
-> Standart K Lib.
-
-My own implementation of the C STD Lib.
+Processadores [sm7325](https://github.com/RebertiCS/m52xq_nethunter_kernel_builder):
+  - Samsung Galaxy M52 5g
+  - Samsung Galaxy A52

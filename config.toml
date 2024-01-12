@@ -1,8 +1,8 @@
 baseurl = "/"
 title = "Reberti Carvalho Soares"
 theme = "hugo-coder"
-languagecode = "en"
-defaultcontentlanguage = "en"
+languagecode = "pt-br"
+defaultcontentlanguage = "pt-br"
 relativeURLs = false
 uglyURLs = false
 
@@ -13,23 +13,23 @@ pygmentsstyle = "b2"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-disable_comments = false
+disable_comments = true
 
 [params]
-    author = "Reberti"
-    info = "Programmer and Linux SysAdm"
-    description = "Reberti's personal website"
-    keywords = "blog,developer,personal,linux"
+    author = "RebertiCS"
+    info = "Programador Full-Stack e Administrador DevOps"
+    description = "A pagina pessoal do RebertiCS"
+    keywords = "Densenvolvedor, Full Stack, Linux, Django, Python, DevOps"
     avatarurl = "/img/avatar.png"
 
     favicon_32 = "/img/favicon-32x32.png"
     favicon_16 = "/img/favicon-16x16.png"
 
-    footercontent = "FOSS developer and activist. UNIX enthusiast. KISS preacher."
-    commit = "https://gitlab.com/KisuYami/kblog/-/commits/master"
+    footercontent = "Contato pelo LinkedIn: RebertiCS"
+    commit = "https://github.com/RebertiCS/github.rebertics.io.git/commits/master"
 
-    hidecredits = false
-    hidecopyright = false
+    hidecredits = true
+    hidecopyright = true
 
     rtl = false
 
@@ -39,72 +39,35 @@ disable_comments = false
 
     enableTwemoji = true
 
+[markup.highlight]
+    style = "github-dark"
+
 # Social links
 [[params.social]]
-    name = "Gitlab"
-    #icon = "fab fa-gitlab"
+    name = "Github"
+    icon = "fa fa-2x fa-github"
     weight = 1
-    url = "https://gitlab.com/kisuyami/"
+    url = "https://github.com/RebertiCS"
 [[params.social]]
-    name = "Reddit"
-    #icon = "fab fa-github"
-    weight = 2
-    url = "https://www.reddit.com/user/reberti666/"
+    name = "LinkedIn"
+    icon = "fa fa-2x fa-linkedin"
+    weight = 1
+    url = "https://www.linkedin.com/in/rebertics/"
 [[params.social]]
-    name = "Twitter"
-    #icon = "fab fa-twitter"
+    name = "XDA"
+    #icon = "fa fa-2x fa-xda"
     weight = 3
-    url = "https://twitter.com/kisoyami/"
-[[params.social]]
-    name = "Mastodon"
-    #icon = "fab fa-mastodon"
-    weight = 3
-    url = "https://fosstodon.org/@kisuyami"
+    url = "https://xdaforums.com/m/rebertics.12774596/"
 
 [[menu.main]]
-    name = "Projects"
+    name = "Projetos"
     weight = 1
     url = "/projects/"
 [[menu.main]]
-    name = "About"
+  name = "Blog"
+  weight = 2
+  url  = "posts/"
+[[menu.main]]
+    name = "Sobre o Author"
     weight = 3
     url = "/about/"
-
-[languages]
-    [languages.en]
-        languagename = "English"
-
-        [languages.en.menu]
-
-            [[languages.en.menu.main]]
-            name = "Projects"
-            weight = 1
-            url = "projects/"
-
-            [[languages.en.menu.main]]
-            name = "About"
-            weight = 3
-            url = "about/"
-
-    [languages.pt-br]
-        languagename = "Português"
-        title = "Reberti Carvalho Soares"
-
-        [languages.pt-br.params]
-            author = "KisuYami"
-            info = "Desenvolvedor FOSS e Linux SysAdm"
-    	    description = "A pagina pessoal do KisuYami"
-    	    keywords = "blog,desenvolvedor,pessoal,linux"
-    	    footercontent = "Desenvolvedor e activista FOSS . Entusiasta de UNIX."
-
-        [languages.pt-br.menu]
-
-            [[languages.pt-br.menu.main]]
-            name = "Projetos"
-            weight = 1
-            url = "projects/"
-
-            [[languages.pt-br.menu.main]]
-            name = "Sobre"
-            weight = 3
-            url = "about/"

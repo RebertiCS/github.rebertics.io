@@ -1,59 +1,57 @@
 ---
-title: "About Me"
+title: "Carreira"
 date: 2020-10-10T23:31:14-03:00
 draft: false
 ---
+Densenvolvedor de drivers e implementações para teste de segurança de dados,
+tendo anos de experiencia como programador full-stack desenvolvendo soluções
+com o objetivo de otimizar o tempo nescessário para gerar leads, cobranças e
+registros contabeis.
 
-I seek to develop in the area
-of systems administration and in the future in devops,
-I currently have experience in microcomputer maintenance and
-development in C, C++, Python, HTML, CSS and JS.
 
-# Experience
+# Experiência
 ---
 
-**Lan House Gold Tech, _2014 to 2015_** --- computer and cell phone repairs, technical assistance and general service
+**Seguradora Nova Esperança:**
+- **_2018 a 2019_**, cobrança de clientes
+- **_2019 a 2023_**, design e desenvolvimento de sistemas para cobrança
+- **_2024_**, Desenvolvimento de sistemas contabils integrados
 
-**Nova Esperança Funeral Home:**
-- **_2018 to 2019_**, customer billing
-- **_2019_**, design and development of billing systems
 
-**Benatto Grocery Store:**
-- **_2019 to 2021_**, kitchen assistant
-- **_2021_**, cook
-
-**Condor Super Center LTDA, _2021 to current_** --- cashier and packer
-
-# Skills
+# Habilidades
 ---
-## Schedule
+## Programação
 
-**_C/C++_:**
-Development of drivers, software for integrated computers and
-automation software.
+**_C/C++_:** 
+Desenvolvimento de drivers, software para computadores integrados e
+software de automação.
 
 **_DJango/Python_:**
-Software development for business management.
+Desenvolvimento de softwares para gerenciamento.
 
 **_JS_:**
-Frontend and backend development.
+Desenvolvimento de frontends e backends.
 
 **_Web_:**
-HTML and CSS, Website and webapp development.
-## System Administration
+Framework para Front-end Bootstrap5, Desenvolvimento de sites e webapps.
+
+## Administração de Sistemas
 **_Android_:**
-Firmware modification and general maintenance.
+Modificação de firmware, desenvolvimento de Kernel.
 
 **_Linux & *BSDs_:**
-Maintenance and development of solutions for computers and servers, backups and automations.
+Manutenção e desenvolvimento de soluções para computadores e servidores, backups e automações.
 
 **_Windows_:**
-Maintenance, repairs and data recovery.
+Manutenção, reparos e reculperação de dados.
 
-# languages
+# Idiomas
 ---
 
-**English:** __Advanced__
+**Englês:** _Avançado_
 
-**Native:** __Portuguese__
+**Português:** _Nativo_
 
+
+# Recomendações:
+**Nova Esperança**, Seguradora Funerária: _Envio sob demanda_
